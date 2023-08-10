@@ -9,7 +9,7 @@ class GithubPagesJokesJsonapi {
 
   async getData() {
     const request = await fetch(
-      "https://domlopluis94.github.io/GithubPages-Jokes-JsonAPI/JsonAPI/dataES.json"
+      "https://www.luigic.es/GithubPages-Jokes-JsonAPI/JsonAPI/dataES.json"
     );
     return request.json();
   }
